@@ -28,15 +28,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="Energetic" Version="0.0.3-alpha" />
+		<PackageReference Include="Energetic.Reflection" Version="0.0.1-alpha" />
+		<PackageReference Include="Energetic.Text" Version="0.0.1-alpha" />
 		<PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
 		<PackageReference Include="System.ComponentModel.TypeConverter" Version="4.3.0" />
 		<PackageReference Include="System.Text.Json" Version="4.7.2" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<ProjectReference Include="..\Energetic.Reflection\Energetic.Reflection.csproj" />
-		<ProjectReference Include="..\Energetic.Text\Energetic.Text.csproj" />
-		<ProjectReference Include="..\Energetic\Energetic.csproj" />
 	</ItemGroup>
 
 </Project>
