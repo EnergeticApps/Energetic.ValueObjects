@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text.Json;
 
 namespace Energetic.ValueObjects
 {
@@ -24,10 +21,9 @@ namespace Energetic.ValueObjects
             }
             init
             {
-               _value = value ?? throw new ArgumentNullException(nameof(Value));
+                _value = value ?? throw new ArgumentNullException(nameof(Value));
             }
         }
-
 
         public int CompareTo(TStrong other) => Value.CompareTo(other.Value);
 
